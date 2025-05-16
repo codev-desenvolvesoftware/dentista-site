@@ -48,7 +48,7 @@ export default function Equipe() {
             </div>
 
             <p className="text-[#65739e] italic text-xs mt-4">
-              "Sorrir é um gesto simples que transforma vidas. Meu objetivo é tornar esse gesto mais confiante e natural para cada paciente."
+              &quot;Sorrir é um gesto simples que transforma vidas. Meu objetivo é tornar esse gesto mais confiante e natural para cada paciente.&quot;
             </p>
           </div>
         </div>

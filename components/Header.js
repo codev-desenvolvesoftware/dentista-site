@@ -25,6 +25,7 @@ export default function Header() {
                   <div className="relative h-[100px] w-[160px]">
                     <Image
                       src="/logo.png"
+                      href="/"
                       alt="Logo da Clínica"
                       fill
                       className="object-contain"
@@ -117,9 +118,11 @@ export default function Header() {
         <div className="md:hidden flex flex-col space-y-4 items-center text-center">
           {/* Topo: Logo + Botão menu */}
           <div className="relative w-full flex flex-col items-center">
+            <Link href="/" className="block">
             <div className="relative w-[100px] h-[90px]">
-              <Image src="/logo.png" alt="Logo da Clínica" fill className="object-contain" priority />
+              <Image src="/logo.png" href="/" alt="Logo da Clínica" fill className="object-contain" priority />
             </div>
+            </Link>
             <button
               onClick={toggleMenu}
               className="absolute right-4 top-1/2 -translate-y-1/2 text-2xl text-blue-600"

@@ -55,7 +55,7 @@ export default function DepoimentosCarousel() {
                     alt={testimonial.name}
                     className="w-24 h-24 rounded-full mb-4"
                   />
-                  <p className="text-lg italic mb-2">"{testimonial.text}"</p>
+                  <p className="text-lg italic mb-2">&quot;{testimonial.text}&quot;</p>
                   <p className="text-sm">{testimonial.name}</p>
                 </div>
               ))}
